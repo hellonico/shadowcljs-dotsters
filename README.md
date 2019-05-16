@@ -1,6 +1,6 @@
 # Dotsters
 
-![](/Users/niko/RAND/shadowcljs-dotsters/game.png)
+![](./game.png)
 
 Cloned from: https://github.com/bhauman/dotsters
 

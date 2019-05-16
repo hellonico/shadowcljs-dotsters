@@ -1,0 +1,20 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [  [org.clojure/core.async "0.4.490"]
+                 ;; for todos async
+                 [jayq "2.5.5"]
+                 [crate "0.2.5"]
+ ]
+
+ :dev-http {8080 "public"}
+
+  :builds
+ {:dots
+  {:target :browser
+   :modules {:main {:init-fn dots.core/init}}}}}
+  
